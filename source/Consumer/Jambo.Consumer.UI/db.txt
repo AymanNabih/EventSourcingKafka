@@ -1,0 +1,6 @@
+﻿mongodb+srv://admin:<PASSWORD>@cluster0-mj4mx.mongodb.net/test?retryWrites=true
+
+mongodb://admin:<PASSWORD>@cluster0-shard-00-00-mj4mx.mongodb.net:27017,cluster0-shard-00-01-mj4mx.mongodb.net:27017,cluster0-shard-00-02-mj4mx.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true
+
+"mongodb://127.0.0.1:27017"
+

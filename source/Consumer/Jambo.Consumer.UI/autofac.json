@@ -1,0 +1,24 @@
+﻿{
+  "defaultAssembly": "Jambo.Consumer.Infrastructure",
+  "modules": [
+    {
+      "type": "Jambo.Consumer.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+        "ConnectionString": "mongodb://127.0.0.1:27017",
+        "DatabaseName": "jambov32"
+      }
+    },
+    {
+      "type": "Jambo.Consumer.Infrastructure.Modules.BusModule",
+      "properties": {
+        "BrokerList": "127.0.0.1:9092",
+        "Topic": "jambov32"
+      }
+    },
+    {
+      "type": "Jambo.Consumer.Infrastructure.Modules.MediatRModule",
+      "properties": {
+      }
+    }
+  ]
+}
